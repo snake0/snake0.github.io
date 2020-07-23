@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <title>娇娇和果果</title>
+    <title>果果不可以这样做</title>
     <style>
         body {
             -webkit-font-smoothing: antialiased;
@@ -44,85 +44,32 @@
 
 <body>
     <div class="content">
-        <h2>❤️大宝娇，我们已经在一起了❤️</h2>
+        <h2>三天分手</h2>
         <div class="timer">
-            <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
+            从 2020.7.20 19:02
         </div>
-        <h2>🌶️你的生日是2000/4/3，你已经出生了🌶️</h2>
+        
         <div class="timer">
-            <b id="d1"></b> Days <b id="h1"></b> Hours <b id="m1"></b> Minutes <b id="s1"></b> Seconds
+            到 2020.7.23 18:10
         </div>
-        <h2>🍒我的生日是1998/8/21，我已经出生了🍒</h2>
         <div class="timer">
-            <b id="d2"></b> Days <b id="h2"></b> Hours <b id="m2"></b> Minutes <b id="s2"></b> Seconds
+            我们很难过，以后果果要把娇娇放在💗上，不可以忘掉哦
         </div>
-        <h2>💗我们在2019/12/22之后的每一天都要开心哦💗</h2>
+        <h2>生日忘记</h2>
+        <div class="timer">
+            从 2020.4.3 14:30
+        </div>
+        
+        <div class="timer">
+            到 2020.4.3 18:30
+        </div>
+        <div class="timer">
+            果果忘掉了娇娇最重要的20岁生日，但是做了很充分的检讨，检讨要背熟哦
+        </div>
     </div>
 
     <script>
-        function timer() {
-            var start = new Date('2019/12/22');
-            var start1 = new Date('2000/4/3');
-            var start2 = new Date('1998/8/21');
-            var t = new Date() - start;
-            var h = ~~(t / 1000 / 60 / 60 % 24);
-            if (h < 10) {
-                h = "0" + h;
-            }
-            var m = ~~(t / 1000 / 60 % 60);
-            if (m < 10) {
-                m = "0" + m;
-            }
-
-            var s = ~~(t / 1000 % 60);
-            if (s < 10) {
-                s = "0" + s;
-            }
-            document.getElementById('d').innerHTML = ~~(t / 1000 / 60 / 60 / 24);
-            document.getElementById('h').innerHTML = h;
-            document.getElementById('m').innerHTML = m;
-            document.getElementById('s').innerHTML = s;
-
-            var t1 = new Date() - start1;
-            var h1 = ~~(t / 1000 / 60 / 60 % 24);
-            if (h1 < 10) {
-                h1 = "0" + h1;
-            }
-            var m1 = ~~(t / 1000 / 60 % 60);
-            if (m1 < 10) {
-                m1 = "0" + m1;
-            }
-
-            var s1 = ~~(t1 / 1000 % 60);
-            if (s1 < 10) {
-                s1 = "0" + s1;
-            }
-            document.getElementById('d1').innerHTML = ~~(t1 / 1000 / 60 / 60 / 24);
-            document.getElementById('h1').innerHTML = h1;
-            document.getElementById('m1').innerHTML = m1;
-            document.getElementById('s1').innerHTML = s1;
-
-            var t2 = new Date() - start2;
-            var h2 = ~~(t2 / 1000 / 60 / 60 % 24);
-            if (h2 < 10) {
-                h2 = "0" + h2;
-            }
-            var m2 = ~~(t2 / 1000 / 60 % 60);
-            if (m2 < 10) {
-                m2 = "0" + m2;
-            }
-
-            var s2 = ~~(t2 / 1000 % 60);
-            if (s2 < 10) {
-                s2 = "0" + s2;
-            }
-            document.getElementById('d2').innerHTML = ~~(t2 / 1000 / 60 / 60 / 24);
-            document.getElementById('h2').innerHTML = h2;
-            document.getElementById('m2').innerHTML = m2;
-            document.getElementById('s2').innerHTML = s2;
-        }
-        timer();
-        setInterval(timer, 1000);
+        
     </script>
 </body>
 
